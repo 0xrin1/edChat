@@ -1,0 +1,42 @@
+{
+    "name": "edchat",
+    "version": "1.0.0",
+    "description": "typescript chat relay for education mentors",
+    "main": "./src/app",
+    "scripts": {
+        "test": "wtfnode ./node_modules/mocha/bin/mocha --exit ./src/tests/test.js",
+        "install": "./node_modules/typescript/bin/tsc",
+        "nodemon": "nodemon src/app.js",
+        "tsc": "./node_modules/typescript/bin/tsc",
+        "watch-tsc": "./node_modules/typescript/bin/tsc -w",
+        "start": "node ./src/app.js"
+    },
+    "author": "Martin Stuessy",
+    "license": "ISC",
+    "dependencies": {
+        "@google-cloud/debug-agent": "^2.6.0",
+        "@types/dotenv": "^4.0.3",
+        "@types/request": "^2.47.1",
+        "cors": "^2.8.4",
+        "dotenv": "latest",
+        "express": "^4.16.3",
+        "node-telegram-bot-api": "^0.30.0",
+        "request": "^2.88.0",
+        "socket.io": "^2.1.1",
+        "typescript": "latest",
+        "typescript-map": "0.0.6"
+    },
+    "config": {
+        "unsafe-perm": true
+    },
+    "devDependencies": {
+        "@types/chai": "^4.1.4",
+        "@types/mocha": "^5.2.3",
+        "chai": "^4.1.2",
+        "chai-exclude": "^1.0.8",
+        "mocha": "^5.2.0",
+        "sinon": "^6.0.1",
+        "sinon-test": "^2.2.0",
+        "wtfnode": "^0.7.0"
+    }
+}
