@@ -1,1 +1,0 @@
-{"version":3,"file":"browserPort.js","sourceRoot":"","sources":["../../../../ts/tests/integration/socketio/browserPort.ts"],"names":[],"mappings":";;AAGA,gEAAyD;AAEzD,MAAqB,eAAe;IAEhC;QACI,MAAM,CAAC,GAAG,EAAE;YACR,IAAI,CAAC,WAAW,GAAG,IAAI,qBAAW,CAAC,IAAI,CAAC,CAAC;QAC7C,CAAC,CAAC,CAAC;IACP,CAAC;CACJ;AAPD,kCAOC"}
